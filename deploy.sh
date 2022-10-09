@@ -29,4 +29,6 @@ rm -rf docs/.vuepress/dist
 
 git add -A
 git commit -m "${msg}"
+git fetch
+git branch -m master
 git push $githubUrl master
