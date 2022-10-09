@@ -28,6 +28,7 @@ cd -
 rm -rf docs/.vuepress/dist
 
 git config --global init.defaultBranch master
+git branch -m master
 git add -A
 git commit -m "${msg}"
 git fetch
