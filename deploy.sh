@@ -27,5 +27,6 @@ git push -f $githubUrl gh-pages # 推送到github
 cd -
 rm -rf docs/.vuepress/dist
 
+git add -A
 git commit -m "${msg}"
 git push $githubUrl master
