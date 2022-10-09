@@ -1,8 +1,6 @@
 #!/usr/bin/env sh
 # 确保脚本抛出遇到的错误
 set -e
-npm run build # 生成静态文件
-cd docs/.vuepress/dist # 进入生成的文件夹
 
 # deploy to github
 if [ -z "$GITHUB_TOKEN" ]; then
@@ -14,6 +12,13 @@ else
   git config --global user.name "cqnu-pc"
   git config --global user.email "2020051615308@stu.cqnu.edu.com"
 fi
+
+npm run dev
+git commit -m "${msg}"
+git push $githubUrl master
+
+npm run build # 生成静态文件
+cd docs/.vuepress/dist # 进入生成的文件夹
 
 git init
 git add -A
