@@ -108,7 +108,7 @@ module.exports = {
       {
         iconClass: "icon-github",
         title: "GitHub",
-        link: "https://github.com/pc-association",
+        link: "https://github.com/cqnu-pc/cqnu-pc.github.io",
       },
       {
         iconClass: "icon-erji",
