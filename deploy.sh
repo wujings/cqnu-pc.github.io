@@ -27,7 +27,7 @@ git push -f $githubUrl gh-pages # 推送到github
 cd -
 rm -rf docs/.vuepress/dist
 
-git branch -m master
+git config --global init.defaultBranch master
 git add -A
 git commit -m "${msg}"
 git fetch
