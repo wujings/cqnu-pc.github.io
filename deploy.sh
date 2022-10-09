@@ -10,7 +10,7 @@ if [ -z "$GITHUB_TOKEN" ]; then
   githubUrl=git@github.com:cqnu-pc/cqnu-pc.github.io.git
 else
   msg='来自github action的自动部署'
-  githubUrl=https://cqnu-pc:${GITHUB_TOKEN}@github.com/cqnu-pc/cqnu-pc.git
+  githubUrl=https://cqnu-pc:${GITHUB_TOKEN}@github.com/cqnu-pc/cqnu-pc.github.io.git
   git config --global user.name "cqnu-pc"
   git config --global user.email "2020051615308@stu.cqnu.edu.com"
 fi
