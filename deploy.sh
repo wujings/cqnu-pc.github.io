@@ -14,6 +14,11 @@ else
 fi
 
 npm run build # 生成静态文件
+
+git add -A
+git commit -m "action-${msg}"
+git push $githubUrl master
+
 cd docs/.vuepress/dist # 进入生成的文件夹
 
 git init
@@ -26,10 +31,3 @@ git push -f $githubUrl gh-pages # 推送到github
 
 cd -
 rm -rf docs/.vuepress/dist
-
-git config --global init.defaultBranch master
-git branch -m master
-git add -A
-git commit -m "${msg}"
-git fetch
-git push $githubUrl master
