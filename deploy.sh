@@ -19,7 +19,7 @@ else
   git config --global user.email "2020051615308@stu.cqnu.edu.com"
 fi
 
-git checkout origin/master
+# git checkout origin/master
 git pull $githubUrl
 
 npm run build # 生成静态文件
