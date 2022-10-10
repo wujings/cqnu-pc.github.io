@@ -1,6 +1,4 @@
 #!/usr/bin/env sh
-# 确保脚本抛出遇到的错误
-set -e
 
 msg=$(git log -1 --pretty=format:'%s' --abbrev-commit | awk -F ':' '{print " " $0}')
 if [ "${msg:1:12}" = "auto update" ]
@@ -27,6 +25,9 @@ npm run build # 生成静态文件
 git add -A
 git commit -m "auto update"
 git push $githubUrl master &> /dev/null
+
+# 确保脚本抛出遇到的错误
+set -e
 
 cd docs/.vuepress/dist # 进入生成的文件夹
 
