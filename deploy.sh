@@ -24,7 +24,7 @@ npm run build # 生成静态文件
 
 git add -A
 git commit -m "auto update"
-git push $githubUrl master &> /dev/null
+git push $githubUrl master
 
 # 确保脚本抛出遇到的错误
 set -e
