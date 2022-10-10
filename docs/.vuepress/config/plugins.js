@@ -4,7 +4,7 @@ module.exports = [
   [
     {
       name: "custom-plugins",
-      globalUIComponents: ["BlockToggle", "GlobalTip", "WebInfo", "Twikoo", "PageInfo"], // 2.x 版本 globalUIComponents 改名为 clientAppRootComponentFiles
+      globalUIComponents: ["BlockToggle", "GlobalTip", "WebInfo", "Twikoo", "PageInfo", "iframeComp", "LastReadingPopup"], // 2.x 版本 globalUIComponents 改名为 clientAppRootComponentFiles
     },
   ],
   ["sitemap", { hostname: "https://cqun-pc.github.io" }],
