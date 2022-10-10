@@ -2,6 +2,12 @@
 # 确保脚本抛出遇到的错误
 set -e
 
+msg=$(git log -1 --pretty=format:'%s' --abbrev-commit | awk -F ':' '{print " " $0}')
+if [ "${msg:1:12}" = "auto update" ]
+then
+  exit 0
+fi
+
 # deploy to github
 if [ -z "$GITHUB_TOKEN" ]; then
   msg='deploy'
