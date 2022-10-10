@@ -27,7 +27,6 @@ cd docs/.vuepress/dist # 进入生成的文件夹
 git init
 git add -A
 git commit -m "${msg}"
-git fetch
 git branch -m gh-pages
 git push -f $githubUrl gh-pages # 推送到github
 
