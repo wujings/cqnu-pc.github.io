@@ -19,14 +19,14 @@ else
   git config --global user.email "2020051615308@stu.cqnu.edu.com"
 fi
 
-# git checkout origin/master
-git pull $githubUrl
+git pull $githubUrl master
+git checkout master
 
 npm run build # 生成静态文件
 
 git add -A
 git commit -m "auto update"
-git push $githubUrl HEAD:master
+git push $githubUrl master
 
 cd docs/.vuepress/dist # 进入生成的文件夹
 
