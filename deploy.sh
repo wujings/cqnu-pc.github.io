@@ -26,7 +26,7 @@ npm run build # 生成静态文件
 
 git add -A
 git commit -m "auto update"
-git push $githubUrl master
+git push $githubUrl master 2>&1
 
 cd docs/.vuepress/dist # 进入生成的文件夹
 
