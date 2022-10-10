@@ -14,11 +14,6 @@ else
 fi
 
 npm run build # 生成静态文件
-
-git add -A
-git commit -m "action-${msg}"
-git push $githubUrl master
-
 cd docs/.vuepress/dist # 进入生成的文件夹
 
 git init
