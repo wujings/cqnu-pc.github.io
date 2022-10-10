@@ -13,7 +13,12 @@ else
   git config --global user.email "2020051615308@stu.cqnu.edu.com"
 fi
 
+git pull $githubUrl
+
 npm run build # 生成静态文件
+
+git push $githubUrl 
+
 cd docs/.vuepress/dist # 进入生成的文件夹
 
 git init
