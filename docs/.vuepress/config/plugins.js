@@ -93,5 +93,5 @@ module.exports = [
   ],
   // vuepress-plugin-tabs。官网：https://github.com/pskordilakis/vuepress-plugin-tabs
   ["tabs"],
-  ["cursor-effects"]
+  // ["cursor-effects"]
 ];
