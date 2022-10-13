@@ -77,7 +77,7 @@ module.exports = [
     },
   ],
   // 顶部阅读进度插件
-  ["reading-progress"],
+  // ["reading-progress"],
   // 动态标题，官网：https://moefyit.github.io/moefy-vuepress/packages/dynamic-title.html
   [
     "dynamic-title",
