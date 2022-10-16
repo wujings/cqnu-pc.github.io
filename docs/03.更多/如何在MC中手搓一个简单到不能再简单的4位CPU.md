@@ -1,3 +1,12 @@
+---
+title: 如何在MC中手搓一个简单到不能再简单的4位CPU
+date: 2022-10-16 19:45:30
+permalink: /pages/f3d368/
+categories:
+  - 更多
+tags:
+  - 
+---
 # 如何在MC中手搓一个简单到不能再简单的4位CPU
 
 ## 1.总述
