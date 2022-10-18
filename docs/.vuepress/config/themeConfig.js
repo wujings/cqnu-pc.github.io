@@ -108,7 +108,7 @@ module.exports = {
       {
         iconClass: "icon-QQ",
         title: "加群吹水",
-        link: "https://jq.qq.com/?_wv=1027&k=RLS8XpzW",
+        link: "https://jq.qq.com/?_wv=1027&k=muINpwxh",
       },
       {
         iconClass: "icon-github",
