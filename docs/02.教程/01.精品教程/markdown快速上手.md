@@ -28,7 +28,7 @@ Markdown allows you to write using an easy-to-read, easy-to-write plain text for
 **演示**：![](https://cn.bing.com/th?id=OHR.BridalVeilFalls_ZH-CN3954641670_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp)
   
 * 推荐使用**图床**上传图片后插入。
-## 代码
+### 代码的处理
 * 语句内的代码应使用一对\`符号（esc下方的按键）括起来
 **样例**：\'code'
 **演示**：想在JAVA中使用`Scanner`类，需先导入`java.util.Scanner`包
