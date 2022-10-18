@@ -46,8 +46,9 @@ int main(){
 }
 ```
 ## 使用markdown创作文章
-
+* markdown文件以.md为后缀名
 * markdown的一大特点在于：不需要像word一样管理文章、字体等内容的格式，只需关注文章整体的结构与内容的重点。
 * 写作markdown文档时，可以通过各级标题将文章的要点进行分割，使得文章更清晰明了。
-* 同时，也可以使用html语法。当表格规模较大时，使用html可以加快渲染速度。
+* 同时，也可以使用html语法。
+* [typora](https://typora.io/)是一款比较知名的付费编辑器，但使用[vscode](https://azure.microsoft.com/zh-cn/products/visual-studio-code/)配合插件也能有不错的体验
  
